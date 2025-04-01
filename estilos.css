@@ -24,11 +24,16 @@ h3 {
 
 nav {
     margin-top: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: inline-block;
     text-align: center;
     white-space: nowrap;
 }
@@ -128,11 +133,6 @@ body.align-left form textarea {
 body.align-left form button {
     margin-top: 10px;
 }
-
-nav ul {
-    text-align: center !important;
-}
-
 
 
 
